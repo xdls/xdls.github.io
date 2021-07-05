@@ -1,3 +1,4 @@
 * 计算机网络
-+ 
++ [[https://xdls.github.io/os/index.html][现代操作系统（原书第3版)]]
 * 操作系统
++ [[https://xdls.github.io/computernetwork/index.html][计 算 机 网 络]]
