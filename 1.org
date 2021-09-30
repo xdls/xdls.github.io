@@ -1,4 +1,9 @@
 #+TITLE: 我的学习工作流程
 * 概述
 supermemo和logseq输入，用org-mode输出
-1
+* supermemo输入
+输入系统的知识
+* logseq输入
+输入自己的灵感
+* org-mode输出
+输出系统的文章
