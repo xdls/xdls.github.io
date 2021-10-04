@@ -1,3 +1,2 @@
 #+TITLE:归零者的博客
-+ [[file:1/index.html][我的学习工作流程]]
-+ [[file:2/index.html][生活中的经济学]]
++ [[file:1.html][我的学习工作流程]]
