@@ -1,0 +1,10 @@
+#+TITLE:       1
+#+AUTHOR:      
+#+EMAIL:       11356@DESKTOP-J68UMAG
+#+DATE:        2021-10-16 周六
+#+URI:         /blog/%y/%m/%d/1
+#+KEYWORDS:    <TODO: insert your keywords here>
+#+TAGS:        <TODO: insert your tags here>
+#+LANGUAGE:    en
+#+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
+#+DESCRIPTION: <TODO: insert your description here>
