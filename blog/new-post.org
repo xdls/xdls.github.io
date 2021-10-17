@@ -1,4 +1,4 @@
-#+TITLE:       1
+#+TITLE:       我的学习工作流程
 #+AUTHOR:      
 #+EMAIL:       11356@DESKTOP-J68UMAG
 #+DATE:        2021-10-16 周六
@@ -8,3 +8,18 @@
 #+LANGUAGE:    en
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 #+DESCRIPTION: <TODO: insert your description here>
+* 概述
+  :PROPERTIES:
+  :ID:       d0662930-cc9f-4ab8-9632-69a4f56ed049
+  :END:
+  supermemo 和 org-mode 输入，用 org-mode 输出
+* supermemo 输入
+  :PROPERTIES:
+  :ID:       2cc96360-9b2c-40c6-9419-17ca771d4c88
+  :END:
+输入系统的知识
+* org-mode 输出
+  :PROPERTIES:
+  :ID:       228dbb85-7350-4552-8f6e-5833758f2d12
+  :END:
+输出系统的文章
