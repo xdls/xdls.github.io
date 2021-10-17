@@ -4,8 +4,8 @@
 #+DATE:        2021-10-16 周六
 #+URI:         /blog/%y/%m/%d/1
 #+KEYWORDS:    <TODO: insert your keywords here>
-#+TAGS:        <TODO: insert your tags here>
-#+LANGUAGE:    en
+#+TAGS:        学习
+#+LANGUAGE:    cn
 #+OPTIONS:     H:3 num:nil toc:nil \n:nil ::t |:t ^:nil -:nil f:t *:t <:t
 #+DESCRIPTION: <TODO: insert your description here>
 * 概述
