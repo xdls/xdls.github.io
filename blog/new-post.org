@@ -1,3 +1,4 @@
+#+CSL_STYLE: d:/card/ieee.csl
 #+TITLE:       我的学习工作流程
 #+AUTHOR:      
 #+EMAIL:       11356@DESKTOP-J68UMAG
@@ -23,3 +24,7 @@
   :ID:       228dbb85-7350-4552-8f6e-5833758f2d12
   :END:
 输出系统的文章
+cite:_cpi_2015
+,__2017
+cite:__2007
+bibliography:d:/GitHub/xdls.github.io/blog/new-post.bib
