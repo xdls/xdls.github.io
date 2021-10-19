@@ -1,7 +1,0 @@
-:PROPERTIES:
-:ID:       0126f514-d17e-4fb3-9661-55883085aaa9
-:END:
-#+TITLE: Index
-
-This is the home page of .
-citeproc-org-set-up
