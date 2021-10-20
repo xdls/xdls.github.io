@@ -1,4 +1,0 @@
-#+TITLE: Index
-
-This is the home page of .
-+ [[file:blog/2021/10/19/ljg/index.html][test blog-theme]]
