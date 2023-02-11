@@ -2,17 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Jane - A super concise theme for Hugo</title>
-    <link>http://localhost:1313/categories/</link>
+    <link>https://xdls.github.io/categories/</link>
     <description>Recent content in Categories on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 11 Feb 2023 07:51:42 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>xdls</copyright>
+    <lastBuildDate>Sat, 11 Feb 2023 07:51:42 +0000</lastBuildDate><atom:link href="https://xdls.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>hugo</title>
-      <link>http://localhost:1313/categories/hugo/</link>
+      <link>https://xdls.github.io/categories/hugo/</link>
       <pubDate>Sat, 11 Feb 2023 07:51:42 +0000</pubDate>
       
-      <guid>http://localhost:1313/categories/hugo/</guid>
+      <guid>https://xdls.github.io/categories/hugo/</guid>
       <description></description>
     </item>
     
