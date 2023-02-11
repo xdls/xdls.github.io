@@ -70,7 +70,7 @@
 <meta itemprop="name" content="Hugo&#43;github_搭建博客">
 <meta itemprop="description" content=""><meta itemprop="datePublished" content="2023-02-11T07:51:42+00:00" />
 <meta itemprop="dateModified" content="2023-02-11T07:51:42+00:00" />
-<meta itemprop="wordCount" content="6">
+<meta itemprop="wordCount" content="736">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo&#43;github_搭建博客"/>
 <meta name="twitter:description" content=""/>
@@ -338,11 +338,115 @@
 
     
     
+<div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">Table of Contents</h2>
+  <div class="post-toc-content">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#使用环境">使用环境</a></li>
+    <li><a href="#安装hugo">安装hugo</a>
+      <ul>
+        <li><a href="#安装homebrew1">安装<code>Homebrew</code></a></li>
+        <li><a href="#安装hugo2">安装hugo</a></li>
+      </ul>
+    </li>
+    <li><a href="#生成站点">生成站点</a></li>
+    <li><a href="#创建文章">创建文章</a></li>
+    <li><a href="#安装主题">安装主题</a></li>
+    <li><a href="#运行hugo">运行hugo</a></li>
+    <li><a href="#部署到github上">部署到GitHub上</a></li>
+    <li><a href="#引用图片">引用图片</a></li>
+    <li><a href="#配置主题">配置主题</a>
+      <ul>
+        <li><a href="#将其链接到互联网上">将其链接到互联网上</a></li>
+        <li><a href="#改名">改名</a></li>
+        <li><a href="#改变站点建立时间">改变站点建立时间</a></li>
+      </ul>
+    </li>
+    <li><a href="#注意事项">注意事项</a></li>
+    <li><a href="#一些感悟">一些感悟</a></li>
+  </ul>
+</nav>
+  </div>
+</div>
 
 
     
     <div class="post-content">
-      <h1 id="安装hugo">安装hugo</h1>
+      <h2 id="使用环境">使用环境</h2>
+<blockquote>
+<p>操作系统：windows11</p>
+<p>子系统：wsl2</p>
+<p>发行版：openSUSE</p>
+</blockquote>
+<h2 id="安装hugo">安装hugo</h2>
+<h3 id="安装homebrew1">安装<code>Homebrew</code><sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></h3>
+<p>一开始用官方网站的安装方法，一直安装不上，后来用Google搜索如何安装，才安装成功。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>rm Homebrew.sh ; wget https://gitee.com/cunkai/HomebrewCN/raw/master/Homebrew.sh ; bash Homebrew.sh
+</span></span></code></pre></div><h3 id="安装hugo2">安装hugo<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>brew install hugo
+</span></span></code></pre></div><h2 id="生成站点">生成站点</h2>
+<p>使用Hugo快速生成站点，比如希望生成到 <code>/path/to/site</code> 路径：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new site /path/to/site
+</span></span></code></pre></div><p>这样就在 <code>/path/to/site</code> 目录里生成了初始站点，进去目录：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>cd /path/to/site
+</span></span></code></pre></div><h2 id="创建文章">创建文章</h2>
+<p>创建一个 <code>about</code> 页面：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new about.md
+</span></span></code></pre></div><p>创建第一篇文章，放到 <code>post</code> 目录，方便之后生成聚合页面。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo new post/first.md
+</span></span></code></pre></div><h2 id="安装主题">安装主题</h2>
+<p>到 <a href="https://themes.gohugo.io/">Complete List | Hugo Themes (gohugo.io)</a> 挑选一个心仪的主题，比如你觉得 <a href="https://themes.gohugo.io/themes/hugo-theme-jane/">Jane | Hugo Themes (gohugo.io)</a> 不错，找到相关的 GitHub 地址，创建目录 themes，在 themes 目录里把主题 git clone 下来<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>：</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>git clone https://github.com/xianmin/hugo-theme-jane.git --depth<span style="color:#f92672">=</span><span style="color:#ae81ff">1</span> themes/jane
+</span></span></code></pre></div><h2 id="运行hugo">运行hugo</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo server
+</span></span></code></pre></div><h2 id="部署到github上">部署到GitHub上</h2>
+<p>假设你需要部署在 GitHub Pages 上，首先在GitHub上创建一个Repository，命名为：xdls.github.io （xdls替换为你的github用户名）。不要<code>Add a README file</code>。</p>
+<p>当我们开发完自己的站点后，我们需要将其构建打包我静态工程，以方便使用Nginx等Web服务器托管<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup>。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>hugo
+</span></span></code></pre></div><p>就是这么简单，直接hugo，然后将<code>public</code>下的内容拿去部署即可。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>$ git init
+</span></span><span style="display:flex;"><span>$ git remote add origin https://github.com/xdls/xdls.github.io.git
+</span></span><span style="display:flex;"><span>$ git add -A
+</span></span><span style="display:flex;"><span>$ git commit -m <span style="color:#e6db74">&#34;first commit&#34;</span>
+</span></span><span style="display:flex;"><span>$ git push -u origin master
+</span></span></code></pre></div><h2 id="引用图片">引用图片</h2>
+<p>使用<a href="https://imgur.com/upload">Imgur: The magic of the Internet</a>图床</p>
+<h2 id="配置主题">配置主题</h2>
+<p>在config.toml中进行站点细节配置</p>
+<h3 id="将其链接到互联网上">将其链接到互联网上</h3>
+<p><img src="https://i.imgur.com/E3ll5zd.png" alt=""></p>
+<p><code>baseURL</code>改为https://xdls.github.io/</p>
+<h3 id="改名">改名</h3>
+<blockquote>
+<p>copyright = &ldquo;xdls&rdquo;</p>
+<p>name = &ldquo;xdls&rdquo;</p>
+</blockquote>
+<h3 id="改变站点建立时间">改变站点建立时间</h3>
+<blockquote>
+<p>since = &ldquo;2023&rdquo;</p>
+</blockquote>
+<h2 id="注意事项">注意事项</h2>
+<p><code>toc</code>不能检测到一级标题</p>
+<h2 id="一些感悟">一些感悟</h2>
+<p>当你无法解决问题的时候，将问题细分，搜索每一个细分问题的解法，无法完成，将问题再次细分，再次搜索。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p><a href="https://juejin.cn/post/7085362350840086536#heading-6">Homebrew安装教程&mdash;kalrry - 掘金 (juejin.cn)</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://www.gohugo.org/">Hugo中文文档 (gohugo.org)</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://github.com/xianmin/hugo-theme-jane/blob/master/README-zh.md">hugo-theme-jane/README-zh.md at master · xianmin/hugo-theme-jane (github.com)</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://www.u1s1.vip/archives/hugo">Hugo入门教程 (u1s1.vip)</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
     </div>
 
     
@@ -642,8 +746,6 @@
 
   <span class="copyright-year">
     &copy;
-    
-      2017 -
     2023
     <span class="heart">
       
