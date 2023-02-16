@@ -7,13 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>xdls</copyright>
-    <lastBuildDate>Sat, 11 Feb 2023 07:51:42 +0000</lastBuildDate><atom:link href="https://xdls.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Feb 2023 09:34:51 +0000</lastBuildDate><atom:link href="https://xdls.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>笔记</title>
+      <link>https://xdls.github.io/categories/%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Mon, 13 Feb 2023 09:34:51 +0000</pubDate>
+      
+      <guid>https://xdls.github.io/categories/%E7%AC%94%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>hugo</title>
       <link>https://xdls.github.io/categories/hugo/</link>
-      <pubDate>Sat, 11 Feb 2023 07:51:42 +0000</pubDate>
+      <pubDate>Mon, 13 Feb 2023 09:19:48 +0000</pubDate>
       
       <guid>https://xdls.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>WSL2</title>
+      <link>https://xdls.github.io/categories/wsl2/</link>
+      <pubDate>Sun, 12 Feb 2023 14:16:19 +0000</pubDate>
+      
+      <guid>https://xdls.github.io/categories/wsl2/</guid>
       <description></description>
     </item>
     

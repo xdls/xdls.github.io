@@ -7,10 +7,119 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>xdls</copyright>
-    <lastBuildDate>Sat, 11 Feb 2023 07:51:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 13 Feb 2023 09:34:51 +0000</lastBuildDate>
     
         <atom:link href="https://xdls.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>记笔记和写文章的区别</title>
+      <link>https://xdls.github.io/post/%E8%AE%B0%E7%AC%94%E8%AE%B0%E5%92%8C%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E5%8C%BA%E5%88%AB/</link>
+      <pubDate>Mon, 13 Feb 2023 09:34:51 +0000</pubDate>
+      
+      <guid>https://xdls.github.io/post/%E8%AE%B0%E7%AC%94%E8%AE%B0%E5%92%8C%E5%86%99%E6%96%87%E7%AB%A0%E7%9A%84%E5%8C%BA%E5%88%AB/</guid>
+      
+        <description>&lt;p&gt;更好地记笔记这个描述太过流于表面；核心在于更好地思考&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;记笔记&#34;&gt;记笔记&lt;/h2&gt;
+&lt;p&gt;写个大概内容，打个链接。记笔记必须要快。&lt;/p&gt;
+&lt;h3 id=&#34;为什么要记笔记&#34;&gt;为什么要记笔记&lt;/h3&gt;
+&lt;p&gt;记忆并不是在我们过去经历发生的时候被我们存进记忆库中的拷贝。相反，记忆是在我们提取它的时候才建立起来的。在发生重建的这一瞬间，我们所用到的重建材料也就是那些填补缺失细节的逻辑推断、与原始记忆混合在一起的关联记忆以及其他一些相关信息&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;p&gt;除了做好仔细的记录并保管好有关过去事件（如回忆、重要谈话、协议等）的记录之外，再没有其他什么更好的方法能够避免出现这些记忆偏差了。&lt;/p&gt;
+&lt;p&gt;这就是为什么要记笔记。&lt;/p&gt;
+&lt;h2 id=&#34;写文章&#34;&gt;写文章&lt;/h2&gt;
+&lt;p&gt;详细地写文章，将其输出。&lt;/p&gt;
+&lt;p&gt;这通常是为了解决一个问题，将所学的知识进行整合。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/427460683&#34;&gt;「更好地记笔记」这个描述太过流于表面；核心在于「更好地思考」 - 知乎 (zhihu.com)&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://book.douban.com/subject/1193621/&#34;&gt;决策与判断 (豆瓣) (douban.com)&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>在hugo中使用内嵌HTML的方法</title>
+      <link>https://xdls.github.io/post/%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%86%85%E5%B5%8Chtml%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 13 Feb 2023 09:19:48 +0000</pubDate>
+      
+      <guid>https://xdls.github.io/post/%E5%9C%A8hugo%E4%B8%AD%E4%BD%BF%E7%94%A8%E5%86%85%E5%B5%8Chtml%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      
+        <description>&lt;p&gt;想要内嵌html，就得在&lt;code&gt;config.toml&lt;/code&gt;最下方中加入下面代码&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-toml&#34; data-lang=&#34;toml&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;[&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;  [&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;goldmark&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    [&lt;span style=&#34;color:#a6e22e&#34;&gt;markup&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;goldmark&lt;/span&gt;.&lt;span style=&#34;color:#a6e22e&#34;&gt;renderer&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;      &lt;span style=&#34;color:#a6e22e&#34;&gt;unsafe&lt;/span&gt; = &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://www.bilibili.com/read/cv4516916?from=search&#34;&gt;在HUGO中使用内嵌HTML的方法 - 哔哩哔哩 (bilibili.com)&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+      
+    </item>
+    
+    <item>
+      <title>WSL2使用指南</title>
+      <link>https://xdls.github.io/post/wsl2%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Sun, 12 Feb 2023 14:16:19 +0000</pubDate>
+      
+      <guid>https://xdls.github.io/post/wsl2%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      
+        <description>&lt;h2 id=&#34;使用环境&#34;&gt;使用环境&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;操作系统：windows11&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;为什么要使用-wsl&#34;&gt;为什么要使用 WSL？&lt;/h2&gt;
+&lt;p&gt;适用于 Linux 的 Windows 子系统 (WSL) 可让开发人员直接在 Windows 上按原样运行 GNU/Linux 环境（包括大多数命令行工具、实用工具和应用程序），且不会产生传统虚拟机或双启动设置开销。&lt;/p&gt;
+&lt;h2 id=&#34;安装wsl1&#34;&gt;安装WSL&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;列出可用的 Linux 发行版&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wsl --list --online
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wsl --install
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;安装特定的发行版&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wsl --install &amp;lt;Distribution Name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;列出已安装的 Linux 发行版&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wsl --list --verbose
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;运行WSL&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;wsl
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;在wsl中使用代理2&#34;&gt;在WSL中使用代理&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/h2&gt;
+&lt;p&gt;查看 DNS 服务器 IP&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cat /etc/resolv.conf
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;可以看到 DNS 服务器是 &lt;code&gt;172.19.80.1&lt;/code&gt;，通过环境变量 &lt;code&gt;ALL_PROXY&lt;/code&gt; 配置代理：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;export ALL_PROXY&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;http://172.19.80.1:10811&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;我使用的是v2rayN，10811是局域网[http:10811]。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/f6ayO3V.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;测试能不能连上Google&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;curl www.google.com
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id=&#34;注意事项&#34;&gt;注意事项&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;ping&lt;/code&gt;命令不走代理，所以bash中&lt;code&gt;ping&lt;/code&gt;命令依旧不能连接上&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://learn.microsoft.com/zh-cn/windows/wsl/install&#34;&gt;安装 WSL | Microsoft Learn&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://zhuanlan.zhihu.com/p/153124468&#34;&gt;为 WSL2 一键设置代理 - 知乎 (zhihu.com)&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;&lt;a href=&#34;https://bytenote.net/article/236&#34;&gt;ping 命令不走配置代理的原因 (bytenote.net)&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;</description>
+      
+    </item>
     
     <item>
       <title>Hugo&#43;github_搭建博客</title>
