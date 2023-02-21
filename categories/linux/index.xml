@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on Jane - A super concise theme for Hugo</title>
+    <link>https://xdls.github.io/categories/linux/</link>
+    <description>Recent content in Linux on Jane - A super concise theme for Hugo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>xdls</copyright>
+    <lastBuildDate>Sun, 12 Feb 2023 14:16:19 +0000</lastBuildDate><atom:link href="https://xdls.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WSL2使用指南</title>
+      <link>https://xdls.github.io/post/wsl2%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</link>
+      <pubDate>Sun, 12 Feb 2023 14:16:19 +0000</pubDate>
+      
+      <guid>https://xdls.github.io/post/wsl2%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
