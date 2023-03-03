@@ -3,21 +3,49 @@
   
   <url>
     <loc>https://xdls.github.io/categories/</loc>
-    <lastmod>2023-02-23T11:25:43+00:00</lastmod>
+    <lastmod>2023-02-27T11:26:24+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://xdls.github.io/</loc>
-    <lastmod>2023-02-23T11:25:43+00:00</lastmod>
+    <lastmod>2023-02-27T11:26:24+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://xdls.github.io/post/</loc>
-    <lastmod>2023-02-23T11:25:43+00:00</lastmod>
+    <lastmod>2023-02-27T11:26:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xdls.github.io/post/%E5%86%99%E4%BD%9C%E8%BD%AF%E4%BB%B6%E7%9A%84%E9%80%89%E6%8B%A9/</loc>
+    <lastmod>2023-02-27T11:26:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xdls.github.io/categories/%E9%9A%8F%E7%AC%94/</loc>
+    <lastmod>2023-02-27T11:26:24+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xdls.github.io/categories/windows/</loc>
+    <lastmod>2023-02-25T16:56:52+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xdls.github.io/post/%E5%9C%A8windows%E7%BB%88%E7%AB%AF%E4%B8%8B%E4%BD%BF%E7%94%A8%E4%BB%A3%E7%90%86/</loc>
+    <lastmod>2023-02-25T16:56:52+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -25,20 +53,6 @@
   <url>
     <loc>https://xdls.github.io/post/%E5%86%99%E5%A5%BD%E4%B8%80%E7%AF%87%E7%AE%80%E5%8E%86/</loc>
     <lastmod>2023-02-23T11:25:43+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xdls.github.io/categories/%E9%9A%8F%E7%AC%94/</loc>
-    <lastmod>2023-02-23T11:25:43+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://xdls.github.io/categories/windows/</loc>
-    <lastmod>2023-02-21T10:46:23+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
