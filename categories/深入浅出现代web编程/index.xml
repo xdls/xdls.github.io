@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>深入浅出现代Web编程 on Jane - A super concise theme for Hugo</title>
+    <title>深入浅出现代web编程 on Jane - A super concise theme for Hugo</title>
     <link>https://xdls.github.io/categories/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%8E%B0%E4%BB%A3web%E7%BC%96%E7%A8%8B/</link>
-    <description>Recent content in 深入浅出现代Web编程 on Jane - A super concise theme for Hugo</description>
+    <description>Recent content in 深入浅出现代web编程 on Jane - A super concise theme for Hugo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>xdls</copyright>
-    <lastBuildDate>Wed, 08 Mar 2023 09:36:16 +0000</lastBuildDate><atom:link href="https://xdls.github.io/categories/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%8E%B0%E4%BB%A3web%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Mar 2023 11:52:58 +0000</lastBuildDate><atom:link href="https://xdls.github.io/categories/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%8E%B0%E4%BB%A3web%E7%BC%96%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>在NodeJS的基础上建立后端</title>
-      <link>https://xdls.github.io/post/%E5%9C%A8nodejs%E7%9A%84%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%BB%BA%E7%AB%8B%E5%90%8E%E7%AB%AF/</link>
-      <pubDate>Wed, 08 Mar 2023 09:36:16 +0000</pubDate>
+      <title>部署一个网站</title>
+      <link>https://xdls.github.io/post/%E9%83%A8%E7%BD%B2%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</link>
+      <pubDate>Fri, 17 Mar 2023 11:52:58 +0000</pubDate>
       
-      <guid>https://xdls.github.io/post/%E5%9C%A8nodejs%E7%9A%84%E5%9F%BA%E7%A1%80%E4%B8%8A%E5%BB%BA%E7%AB%8B%E5%90%8E%E7%AB%AF/</guid>
+      <guid>https://xdls.github.io/post/%E9%83%A8%E7%BD%B2%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/</guid>
       <description></description>
     </item>
     

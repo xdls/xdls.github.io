@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Total_commander的使用 - Jane - A super concise theme for Hugo</title>
+  <title>部署一个网站 - Jane - A super concise theme for Hugo</title>
   
 
 <meta name="renderer" content="webkit" />
@@ -35,7 +35,7 @@
 <meta name="generator" content="Hugo 0.110.0" />
 
 
-<link rel="canonical" href="https://xdls.github.io/post/total_commander%E7%9A%84%E4%BD%BF%E7%94%A8/" />
+<link rel="canonical" href="https://xdls.github.io/post/%E9%83%A8%E7%BD%B2%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/" />
 
 
 
@@ -61,18 +61,18 @@
 
 
 
-<meta property="og:title" content="Total_commander的使用" />
+<meta property="og:title" content="部署一个网站" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://xdls.github.io/post/total_commander%E7%9A%84%E4%BD%BF%E7%94%A8/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2023-03-05T15:54:55+00:00" />
-<meta property="article:modified_time" content="2023-03-05T15:54:55+00:00" />
-<meta itemprop="name" content="Total_commander的使用">
-<meta itemprop="description" content=""><meta itemprop="datePublished" content="2023-03-05T15:54:55+00:00" />
-<meta itemprop="dateModified" content="2023-03-05T15:54:55+00:00" />
-<meta itemprop="wordCount" content="524">
+<meta property="og:url" content="https://xdls.github.io/post/%E9%83%A8%E7%BD%B2%E4%B8%80%E4%B8%AA%E7%BD%91%E7%AB%99/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2023-03-17T11:52:58+00:00" />
+<meta property="article:modified_time" content="2023-03-17T11:52:58+00:00" />
+<meta itemprop="name" content="部署一个网站">
+<meta itemprop="description" content=""><meta itemprop="datePublished" content="2023-03-17T11:52:58+00:00" />
+<meta itemprop="dateModified" content="2023-03-17T11:52:58+00:00" />
+<meta itemprop="wordCount" content="1169">
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Total_commander的使用"/>
+<meta name="twitter:title" content="部署一个网站"/>
 <meta name="twitter:description" content=""/>
 
 <!--[if lte IE 9]>
@@ -293,7 +293,7 @@
           <article class="post bg-white">
     
     <header class="post-header">
-      <h1 class="post-title">Total_commander的使用</h1>
+      <h1 class="post-title">部署一个网站</h1>
       
 
       <div class="post-meta">
@@ -308,8 +308,8 @@
   </div>
 
   <div class="post-meta-time">
-    <time datetime="2023-03-05">
-      2023-03-05
+    <time datetime="2023-03-17">
+      2023-03-17
     </time>
   </div>
 
@@ -320,7 +320,7 @@
     
 
     <div class="post-meta-category">
-        <a href="https://xdls.github.io/categories/%E9%9A%8F%E7%AC%94/"> 随笔 </a>
+        <a href="https://xdls.github.io/categories/%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E7%8E%B0%E4%BB%A3web%E7%BC%96%E7%A8%8B/"> 深入浅出现代web编程 </a>
           
       </div>
 
@@ -343,10 +343,13 @@
   <div class="post-toc-content">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#安装插件">安装插件</a></li>
-    <li><a href="#快速搜索插件">快速搜索插件</a></li>
-    <li><a href="#查看器插件">查看器插件</a></li>
-    <li><a href="#操作方式">操作方式</a></li>
+    <li><a href="#服务器">服务器</a></li>
+    <li><a href="#网站服务器">网站服务器</a></li>
+    <li><a href="#购买云服务器">购买云服务器</a></li>
+    <li><a href="#远程连接">远程连接</a></li>
+    <li><a href="#使用winscp将本地文件复制到远程linux中3">使用WinSCP将本地文件复制到远程Linux中</a></li>
+    <li><a href="#安装docker4">安装Docker</a></li>
+    <li><a href="#从docker文件中构建镜像">从Docker文件中构建镜像</a></li>
   </ul>
 </nav>
   </div>
@@ -355,40 +358,64 @@
 
     
     <div class="post-content">
-      <p>Total Commander 简称TC，是一款应用于 Windows 平台的文件管理器 ，它包含两个并排的窗口，这种设计可以让用户方便地对不同位置的“文件或文件夹”进行操作，例如复制、移动、删除、比较等，相对 Windows 资源管理器而言多出一些功能<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>。</p>
-<p>它拥有文件快速预览、快速搜索、多标签、文件比较、批量重命名、FTP 客户端等诸多实用的功能，并可通过大量的插件进行个性化配置。</p>
-<p>需要相应功能的时候，再去寻找插件和下载安装。</p>
-<h2 id="安装插件">安装插件</h2>
-<p>选项-插件-配置，添加插件</p>
-<p>直接修改设置文件，将直接路径修改为相对路径</p>
-<p>%COMMANDER_PATH%是total_commander的安装目录</p>
-<h2 id="快速搜索插件">快速搜索插件</h2>
-<p><a href="https://www.ghisler.ch/board/viewtopic.php?t=22592">QuickSearch eXtended - Total Commander (ghisler.ch)</a></p>
-<p>可以直接使用拼音首字母进行搜索</p>
-<p>直接双击压缩包进行安装</p>
-<p>按C-s进行搜索</p>
-<p>更改设置，直接用字母就可以搜索</p>
-<p>配置-选项-快速搜索-字母（打开快速搜索框）</p>
-<h2 id="查看器插件">查看器插件</h2>
-<p><a href="https://totalcmd.net/plugring/synplus.html">SynPlus 2.7.3 - Total Commander (totalcmd.net)</a></p>
-<p>用来查看JS文件，有代码高亮高亮</p>
-<p><a href="https://totalcmd.net/plugring/htmlview.html">HTMLView 1.1 - Total Commander (totalcmd.net)</a></p>
-<p>用来查看文件夹中的内容</p>
-<p><a href="https://totalcmd.net/plugring/slister.html">sLister 1.1.2 - Total Commander (totalcmd.net)</a></p>
-<p>查看pdf文件</p>
-<p><a href="https://xbeta.info/tc-docx.htm">TC插件：用uLister快速查看docx/office2007/2010文件 – 善用佳软 (xbeta.info)</a></p>
-<p>查看多种文件。</p>
-<p><a href="https://totalcmd.net/plugring/markdownviewer.html">WLX Markdown Viewer 2.3 - Total Commander (totalcmd.net)</a></p>
-<p>查看markdown文件</p>
-<p><a href="http://totalcmd.net/plugring/jsonviewer.html">JSON Viewer 1.3.1 - Total Commander (totalcmd.net)</a></p>
-<p>查看json文件</p>
-<h2 id="操作方式">操作方式</h2>
-<p>操作方式-切换驱动器时总是切换到根文件夹</p>
-<div class="footnotes" role="doc-endnotes">
+      <p>想要让别人能够访问我们的网站，我们需要的是<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>：</p>
+<ol>
+<li>一个服务器（Server）；</li>
+<li>一个网站服务器（Web Server）；</li>
+</ol>
+<h2 id="服务器">服务器</h2>
+<p>服务器是什么？说白了，它就是计算机，我们平时用的电脑都可以做服务器。</p>
+<p>但是用来充当服务器的电脑，一旦关机了，就没法提供服务了，所以基本上服务器都是7*24 小时运行的。</p>
+<p>就像普通电脑一样，服务器也需要有个操作系统，但是一般不会安装 OSX 或者普通版本的 Windows 系统，而是采用开源的、轻量级的 Linux 系统，比如 Ubuntu。</p>
+<p>我们可以用自己家里的电脑做服务器，也可以在一些平台上面租借他们的服务器，比如 AWS，Google Cloud 或者 Digital Ocean。</p>
+<p>一般来说，我们都会选择一个平台，创建云端服务器，这样一方面能够保证服务器全天候稳定运行，另一方面也更加安全。</p>
+<p>我们可以在云端服务器里面创建文件夹，传输文件，安装软件，但这些操作都是通过命令行去实现的。</p>
+<p>我们跟云端服务器建立连接的方式是SSH，比如当我在 阿里云 创建了一个CentOS服务器之后，我可以通过下面图片中的指令去远程操作这台服务器。</p>
+<h2 id="网站服务器">网站服务器</h2>
+<p>如果说服务器是有形的一台计算机，那么网站服务器<strong>其实只是一个程序</strong>。</p>
+<p>这个程序的作用很简单，通过<strong>HTTP</strong>把我们网页的内容传到用户的浏览器。</p>
+<p>所以网站服务器就是 HTTP Server，因为万维网上所有的页面都是通过 HTTP 这个协议发送的，所以我们必须在服务器上安装一个网站服务器(软件)才能把页面用 HTTP 发送出去。</p>
+<p>常见的网站服务器(软件)有<strong>微软的 IIS，Apache，以及 Nginx。</strong></p>
+<p>Apache 和 Nginx 可以在任意操作系统下安装，而 IIS 只有在 windows 系统下才能使用。</p>
+<p>如果用 ASP.NET 这个技术栈开发的话，部署网站就要用 IIS(也就是 FIT5032 里面学的部署流程)，因为这次我没有用.NET，所以我选择的是 Apache。</p>
+<p>IIS 和其他网站服务器的最大区别在于，<strong>IIS 里面不区分文件名大小写</strong>，比如 abc.html 和 ABC.html 在 IIS 里面会被当做一样的文件，而 Apache 和其他的网站服务器是区分大小写的。</p>
+<h2 id="购买云服务器">购买云服务器</h2>
+<p><img src="https://i.imgur.com/f7BkyOS.png" alt=""></p>
+<h2 id="远程连接">远程连接</h2>
+<p>使用VS Code插件远程连接Linux服务器<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>。</p>
+<p>PuTTY：PuTTY是Windows操作系统下的一种SSH和Telnet客户端程序，支持各种加密算法和身份验证方式。</p>
+<h2 id="使用winscp将本地文件复制到远程linux中3">使用WinSCP将本地文件复制到远程Linux中<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup></h2>
+<p>会话-新建会话</p>
+<h2 id="安装docker4">安装Docker<sup id="fnref:4"><a href="#fn:4" class="footnote-ref" role="doc-noteref">4</a></sup></h2>
+<p>在CentOS中安装Docker</p>
+<p>设置存储库</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo yum install -y yum-utils
+</span></span><span style="display:flex;"><span>sudo yum-config-manager <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    --add-repo <span style="color:#ae81ff">\
+</span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    https://download.docker.com/linux/centos/docker-ce.repo
+</span></span></code></pre></div><p>安装 Docker Engine, containerd, and Docker Compose</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+</span></span></code></pre></div><p>要先启动Docker，才能运行Docker命令。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>sudo systemctl start docker
+</span></span></code></pre></div><h2 id="从docker文件中构建镜像">从Docker文件中构建镜像</h2>
+<p>从Docker文件中构建镜像</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker build -t phonebook_backend .
+</span></span></code></pre></div><p>运行Docker图像</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-bash" data-lang="bash"><span style="display:flex;"><span>docker run -p 8257:8257 phonebook_backend
+</span></span></code></pre></div><div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p><a href="https://zh.wikipedia.org/zh-cn/Total_Commander">Total Commander - 维基百科，自由的百科全书 (wikipedia.org)</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://lunawen.com/web/20190515-luna-tech-web-foundation/">部署一个网站之前，你需要了解这些基本知识。 - Luna Tech (lunawen.com)</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p><a href="https://cloud.tencent.com/developer/article/2175073">使用VS Code插件远程连接Linux服务器 - 腾讯云开发者社区-腾讯云 (tencent.com)</a>&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p><a href="https://blog.csdn.net/ZYS10000/article/details/107138719">(20条消息) WinSCP 使用教程_winscp使用教程_明天也要努力的博客-CSDN博客</a>&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:4">
+<p><a href="https://docs.docker.com/engine/install/centos/">Install Docker Engine on CentOS</a>&#160;<a href="#fnref:4" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
@@ -410,22 +437,9 @@
       
       <nav class="post-nav">
         
-          <a class="prev" href="/post/docker/">
-            
-            <i class="iconfont">
-              <svg  class="icon" viewBox="0 0 1024 1024" version="1.1"
-  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-  width="18" height="18">
-  <path d="M691.908486 949.511495l75.369571-89.491197c10.963703-12.998035 10.285251-32.864502-1.499144-44.378743L479.499795 515.267417 757.434875 204.940602c11.338233-12.190647 11.035334-32.285311-0.638543-44.850487l-80.46666-86.564541c-11.680017-12.583596-30.356378-12.893658-41.662889-0.716314L257.233596 494.235404c-11.332093 12.183484-11.041474 32.266891 0.657986 44.844348l80.46666 86.564541c1.772366 1.910513 3.706415 3.533476 5.750981 4.877077l306.620399 321.703933C662.505829 963.726242 680.945807 962.528973 691.908486 949.511495z"></path>
-</svg>
-
-            </i>
-            <span class="prev-text nav-default">Docker入门指南</span>
-            <span class="prev-text nav-mobile">Prev</span>
-          </a>
         
-          <a class="next" href="/post/%E5%86%99%E4%BD%9C%E8%BD%AF%E4%BB%B6%E7%9A%84%E9%80%89%E6%8B%A9/">
-            <span class="next-text nav-default">写作软件的选择</span>
+          <a class="next" href="/post/docker/">
+            <span class="next-text nav-default">Docker入门指南</span>
             <span class="prev-text nav-mobile">Next</span>
             
             <i class="iconfont">
