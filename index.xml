@@ -7,10 +7,212 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>xdls</copyright>
-    <lastBuildDate>Sat, 18 Mar 2023 14:25:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 21 Mar 2023 08:22:17 +0000</lastBuildDate>
     
         <atom:link href="https://xdls.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Programmer的自我推销</title>
+      <link>https://xdls.github.io/post/programmer%E7%9A%84%E8%87%AA%E6%88%91%E6%8E%A8%E9%94%80/</link>
+      <pubDate>Tue, 21 Mar 2023 08:22:17 +0000</pubDate>
+      
+      <guid>https://xdls.github.io/post/programmer%E7%9A%84%E8%87%AA%E6%88%91%E6%8E%A8%E9%94%80/</guid>
+      
+        <description>&lt;p&gt;准备把自己作为程序员如何写简历，找工作，做side project的心得写下来，万一红了呢&lt;/p&gt;
+&lt;h2 id=&#34;简历的基本格式&#34;&gt;简历的基本格式&lt;/h2&gt;
+&lt;h3 id=&#34;objective&#34;&gt;&lt;strong&gt;Objective&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;通常我个人是只写申请的position title的，会根据不同公司的不同职位进行修改。不过大部分网申系统都会记录你申请的职位，所以如果简历篇幅不够可以去掉这个section。有看到过有些人会用一个通用的职位描述，大意就是any developer position都行，这样投不同公司不同职位就不修改了。个人不太喜欢，显得申请人比较懒没有诚意。也有人会加上日期说自己什么时候毕业希望什么时候开工。这种额外信息我也不太喜欢，因为这个应该是面谈的东西，不要在白纸黑字的地方给自己和别人加限制。&lt;/p&gt;
+&lt;h3 id=&#34;education&#34;&gt;&lt;strong&gt;Education&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Education好像没有什么太多好说的，无非就是学校专业gpa之类的。觉得自己gpa足够好或者rank够高就写上，反之就别写。如果你拿到面试比较多，你就会知道大概没什么人会对你的gpa或者rank提问。如果你拿到面试比较少，那通常也不是因为gpa。Education可以在格式上写紧凑一点给Project多留点空间。比如具体只写两行，一行硕士一行本科；每行行内写清楚学位学校时间等等。&lt;/p&gt;
+&lt;h3 id=&#34;technical-skills&#34;&gt;&lt;strong&gt;Technical Skills&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;这个Section的作用是用来总结关键词的。我通常会把所有的关键词都列在这里。一般就是languages，frameworks，tools，knowledge这几个item。这里强调一点，什么是关键词。通常别人看你的简历，不会超过一分钟，尤其是简历初选的时候更是没人把你的简历当回事。这里的重点不是简历不重要，而是你的简历要怎么在一分钟之内抓住别人的眼球，留一个好印象。这一分钟之内的好印象决定了你的简历能否进入下一轮。这里最有效的办法就是少废话，多列关键词。哪些是关键词呢？编程语言数据库的名字当然是，但是各种framework的名字更重要。想象一下你的简历里写的是会Java，别人写的是会Hibernate和hadoop；你的简历里写会javascript，别人写的是会ReactJS和NodeJS；你的简历里写会SQL，别人写的是会PostgreSQL和MongoDB。你说你拼得过别人吗？另外在解释一下什么叫做“少废话”。有些人会写“good with XXX”, &amp;ldquo;familiar with XXX&amp;rdquo;, &amp;ldquo;efficient with XXX&amp;rdquo;，这些形容词就是废话，因为面试官不会根据你的形容词做量化判断，同时面试官会觉得你心虚。看到这里你可能会有两个问题：第一，framework不会怎么办？答：去学。第二：不熟的技术写上去，面试被问到怎么办？答：首先你得有面试。最后说明一下为什么要有个knowledge这个item：knowledge要根据Job position的描述进行修改，基本思想就是job要求啥你knowledge就写啥，用以表现你对这个职位很match。对，就是这么鸡贼。&lt;/p&gt;
+&lt;h3 id=&#34;professional-experience&#34;&gt;&lt;strong&gt;Professional Experience&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;这个section一般是写实习的。实习一般分成两种，第一种是参与核心产品研发。有见过一个女生的简历，她参与了百度某个deep learning产品的开发，轻松去了facebook。如果你有这样的经历，简历随便写写就行了。其他实习都是第二种，统称为打杂。打杂的实习，关键要强调technical stack，而不是强调你开发的东西怎么用。这个点会在下面讲project怎么写的时候细说。另外一定要想办法强调你做的工作是system development。比如你的实习内容是做测试，那你一定要想办法说成你做的是开发测试系统，而不是简单的写test case。 还有人在Professional Experience写和development无关的经历，想要强调自己的leadership或者communication skill。但是说实话，如果你找的工作是入门级别的developer，没人在乎你的leadership。同样面试本身就会体现communication skill， 如果你连面试都进不去，也就说明别人不在乎你的communication skill。如果是实在没有project可以写，这些可以用来把简历填满，但是我个人不觉得这能起到多大的加分作用。相反，面试官有可能会留下这个人没有什么项目可写的负面印象。&lt;/p&gt;
+&lt;h3 id=&#34;projects&#34;&gt;&lt;strong&gt;Projects&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Projects在简历中占据最大的篇幅，也是简历中最重要的部分。这个部分不只决定了你能否进入面试，也在相当程度上决定了面试中面试官会问什么样的问题。只要你清楚的知道你的简历里的卖点是哪些，那你就能把握面试问题的范围，回答上也就更得心应手。不过这是关于面试的技巧，这里先只讨论简历进面试这一步。描述Projects时候最常见的错误，第一个是去详细解释你的project是啥和怎么用，而忽略了tech stack。看到很多简历在写project的时候，都是在详细解释我做了个啥，这个东西是啥，这个东西怎么操作。比如我做了个电商网站，这个网站用户能登录，登录之后用户能买东西，买了东西后台还能看到。这是HR或者面试官希望看到的吗？难道你觉得HR或者面试官不知道电商网站应该有哪些功能？正确的写法是，你要强调是用了什么framework开发了那些feature。比如用Django搭建了MVC，用MongoDB做数据库，就用FB/TW的api实现了用户登录。通过tech stack别人才能判断你的开发经验。第二个常见错误是，以为tech stack只写个开发语言和IDE就行了。前面已经提到过了，开发语言仅仅是最基础的东西，是别人大二大三就会的东西。更重要的是那些framework。第三个常见错误，重复。你做了三个tech stack一样的Android app，写在简历上只能算是一个project，因为没有区别。第四个常见错误，啰嗦。你应该把简历写的像ppt，而不是写的像论文。之前也提到了，别人第一次看你的简历都不超过60秒，写的啰嗦别人就找不到重点（关键词），结果就扔掉了。说了一些Project里常见的坑，最后说一下怎么“合理夸大“自己的简历。一个办法是，把自己新学的framework”编“进之前并没有使用这个技术的project中。比如你去年做了web的project，但是最近才刚学了AngularJS，你就可以在简历里说去年的web project用AngularJS做了一些功能。当然前提是你确实是懂这个技术的。&lt;/p&gt;
+&lt;h3 id=&#34;coursework&#34;&gt;&lt;strong&gt;Coursework&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;通常我会把coursework放在简历最后，并且根据不同的position要求调整课程。比如如果是data scientist的职位就要强调machine learning和data mining相关的课程，如果是system developer就强调下数据库或者操作系统。有人问过说学校没上的课是不是不应该放上去。我的回答一般是，简历就是怎么对自己有利怎么写，拿不到面试担心那么多有毛用。成绩单上没有，你就说你在网课上学过，又不是刑侦破案谁还有闲心让你开证明不成。&lt;/p&gt;
+&lt;h3 id=&#34;publications&#34;&gt;&lt;strong&gt;Publications&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;对phd来说publications相当重要，但是这里其实主要针对找工作的master。对硕士来说，可以锦上添花，但你要先确定你的“锦”足够好。除非你在国内，否则中文的publication就算了。英文的如果有就按照通常论文的reference格式写清楚。&lt;/p&gt;
+&lt;h3 id=&#34;其他篇幅&#34;&gt;&lt;strong&gt;其他：篇幅&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;如果简历一页写不满或者写的很稀松，那找工作会很困难，因为这说明你没什么经验没什么能写。如果简历一页写不下，并且已经足够简练，千万不要因为篇幅砍project。总能看到有人说简历不能超过一页，但是找工作这种事情需要大家有脑子有计划，到底格式和内容哪个重要，还是自己判断吧。&lt;/p&gt;
+&lt;h3 id=&#34;其他关于framework和刷题&#34;&gt;&lt;strong&gt;其他：关于framework和刷题&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;大部分学校课程只教基础原理，不教framework。如果你认为靠学校教的基础原理找工作就够了，那可能这就是你找不到工作的原因。也看到有人刷题无数但拿不到面试。原因也很简单，刷题没有办法写进简历，你见过谁的简历里写自己怎么刷题的？还是那句话，在最短的时间里，别人只能通过你用过的framework来判断你的编程能力。&lt;/p&gt;
+&lt;h3 id=&#34;其他关于summary&#34;&gt;其他：关于Summary&lt;/h3&gt;
+&lt;p&gt;不少简历中可以看到一个Summary section，大意就是“I am a team player with strong coding experience and good communication skills”。楼主自己的简历不写summary，同时也不推荐在简历里这样写。理由其实在上中已经说明过了。首先你的experience是不是strong不是你自己说了算的，面试官会根据你的Project做出判断并和其他candidate做出比较。不然每个人都会说自己strong experience。其次，像leadership，communication，team player这种所谓soft skills，面试官判断的依据也不是来自于简历而是来自于面试。如果简历里的hard skills过不了关没有面试，所有soft skills就都是空谈。进入面试之后，只要是情商智商正常的candidate，即使拿不到offer通常也不会是因为soft skill。&lt;/p&gt;
+&lt;h3 id=&#34;其他关于简历格式&#34;&gt;其他：关于简历格式&lt;/h3&gt;
+&lt;p&gt;最近看到了一些模板诡异的简历，阅读和修改起来都很头疼，尤其是那种三七开排版的。比如左边30%写Education，skills，和一些别的；右边70写project和experience。不仔细看的话排版挺美观的，但是实际上个人感觉这种排版需要上下来回阅读，很容易distraction非常难以抓住细节，尤其是当你写的紧凑的时候。还有人会在简历里加黑加粗一些关键词，初衷可以理解，但是个人也不推荐。原因是潜意识里我会只关注加黑加粗的部分，自动忽略其他。如果我看到你加黑加粗的是Bootstrap或者jQuery这种，印象就更差了。另外一个感觉是之所以要加黑加粗，往往是以为其他部分废话太多。&lt;/p&gt;
+&lt;h2 id=&#34;面试的话术&#34;&gt;面试的话术&lt;/h2&gt;
+&lt;p&gt;如果你已经有了面试，那你要注意在面试中，面试官有哪些“刷题提问”，有哪些“简历提问”。有些轮次的面试可能也没有“简历提问”，尤其是onsite之前的电面，但是“刷题提问”答对了不代表你能进入下一轮，进了下一轮也不代表你能拿offer。毕竟LeetCode题目和答案都是公开的，谁还没刷过题，答对了很正常好么。相反，如果面试官对你的简历更感兴趣有很多“简历提问”，你回答的也不错，那你进入下一轮和拿offer的概率往往会更大。“简历提问”往往就是出自Project，其他的像是Education什么的白纸黑字写在那里能有什么好问的。换句话说，你可以在一定程度上利用自己的简历引导面试官提问。这个部分以后在面试话术中再细说。相反，如果你简历中的Project毫无亮点，面试官看你一脸什么都不会的样子也不知道该问什么，那只能让你做题去了。&lt;/p&gt;
+&lt;h2 id=&#34;简历中project的写法&#34;&gt;简历中Project的写法&lt;/h2&gt;
+&lt;p&gt;简历中最重要的部分就是Project，有经验的面试官会在一分钟之内对你的Project做出判断，决定你的简历能否进入面试。可惜的是，对于找工作经验不多的同学来说，简历里的Project都写成了工作日记，效果当然不尽如人意。这里我们首先看一个错误的Project示例，分析一下面试官和候选人的不同心理预期，然后再看在作者推荐的套路下如何修改并且提高自己的Project。&lt;/p&gt;
+&lt;h2 id=&#34;project的错误示范&#34;&gt;Project的错误示范&lt;/h2&gt;
+&lt;p&gt;这里我们用一个例子来看看简历里最常见的几个错误。cvmastersonline是我自己开发的一个提供修改简历和在线咨询的网站。如果我把它写成一个简历里的Project，很多人可能会觉得这样写没什么大问题：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Online Resume Consulting Service&lt;/strong&gt; (&lt;a href=&#34;https://cvmentors.com/&#34;&gt;https://cvmentors.com&lt;/a&gt;) 2017/01 - 2017/08&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented the consulting service for new grad students to submit resumes and get feedbacks from experts&lt;/li&gt;
+&lt;li&gt;Used Ruby on Rails to enable user registration, resume submission, and service payment&lt;/li&gt;
+&lt;li&gt;Implemented a forum so users can create groups, topics, or comments on topics&lt;/li&gt;
+&lt;li&gt;Utilized MongoDB to store information of users, topics, and groups.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;首先明确一点，这个Projects的描述是非常差的写法，里面有常见的错误的惯性思维。我们首先来分析一下这个写法背后的基本逻辑是什么：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我要证明我确实做了一个project，这个project是真实的（证实project存在）&lt;/li&gt;
+&lt;li&gt;我要证明我的这个project是用户可以操作的（证实project能work）&lt;/li&gt;
+&lt;li&gt;我要证明我的这个project有不少功能（证实工作量）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;总而言之，这种Project的写法是一种“证实”的写法。简单点来说，这种简历的写法的出发点是证明事实，我当初确实做了不少东西，虽然可能有些许夸大的部分，但是我要努力证明我写的就是事实， 我要证明我coding了很多。这有什么不对吗？&lt;/p&gt;
+&lt;p&gt;这里有两种错误的心态，一种我称之为日记心态，另外一种我称为苦劳心态。日记心态是说把写简历当成写日记。大家小时候一定都写过一种日记体作文，一般就叫做“记一个愉快/难忘/有意义的周末”或者其他类似的破题目。为了交差，大家都交过流水账得过低分。其实你也知道，虽然所谓贵在真实，但老师对你的吃喝拉撒不感兴趣，你需要编点扶老太太过马路这种人民群众喜闻乐见的故事，哪怕老师知道你是编的故事，甚至老师会鼓励你编故事。所以说，事实不重要，你又不是柯南。第二种苦劳心态，来自于经典电视剧台词“没有功劳也有苦劳”。一般在抗战电视剧里，国军将领一般先是狡辩“不是国军无能，实在是共匪太狡猾”，然后就一边喊着“没有功劳也有苦劳”就被拖下去枪毙了。你有没有想过，你的简历也是这样被枪毙的？事情做的多就一定对吗？打杂打的卖力刻苦就一定有回报吗？&lt;/p&gt;
+&lt;p&gt;就像对作文，高分的原因可能有很多，但是低分的原因可能很类似。简历和面试也是如此，首先你要弄清楚面试官对于高分简历的期待和对于低分简历的判断是什么。面试官希望看到的是，你的知识背景和动手能力高度符合他们正在做的产品，一旦把你招进组你可以马上做出贡献，谁也不想招一个指望不上的笨蛋拖后腿。面试官希望看到的是你来证明你的知识背景和动手能力。面试官希望看到的不是事实，面试官也肯定不会傻到把你写的东西当成百分之百的事实。面试官不在乎你这个project是学校要求的还是自己做的，面试官不在乎这个project是做咨询还是做电商的，面试官不在乎你的网站是卖服务还是卖袜子的。哪怕你提供了github或者网站链接，大部分面试官在你onsite之前几乎从不点开（事实也许并不全然如此，但是你最好做好这样的心理准备）。面试官的基本假设就是你写的东西未必都会，但是没写的东西一定不会。&lt;/p&gt;
+&lt;p&gt;回到Project的具体条目上，错误示例里第一条在解释这个网站是具体干嘛的，“干嘛的”是可以有的，但是“具体”就没必要了。第二条提到了ruby on rails，这是技术相关的有效信息，但是后边的都是用户操作，面试官没兴趣知道。第三条本质上是在解释什么是forum，这一条是4个条目里信息含量最低最没用的一条。第四条mongodb是有效信息，但是information storage这个解释对所有database都可以用，所以也就没有信息含量。最终，面试官对这个project的印象就简化为：这是一个RoR on MongoDB的project。结果就是写了这么多，面试官的印象就是这个人用过Ruby on Rails和mongodb。注意这里的印象就只是“用过”而已，面试官很大程度上不会认为这个人对Ruby on Rails或者MongoDB有多深入的了解。&lt;/p&gt;
+&lt;h2 id=&#34;project的初级写法&#34;&gt;Project的初级写法&lt;/h2&gt;
+&lt;p&gt;看到了Project的错误示范，这里我们看看正确有效的写法应该是什么样子的。所谓“正确有效”，就是在有限的篇幅之内，提高信息密度，尽可能多的向面试官传达有效信息。传达有效信息也有高下之分，这里我们先看一个入门级的例子。同样的project，换一个角度去表达，可以变成这个样子：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Rails based Online Resume Consulting Web Service (&lt;a href=&#34;https://www.cvmastersonline.com&#34;&gt;www.cvmastersonline.com&lt;/a&gt;)&lt;/strong&gt; 2017/01 - 2017/08&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented the web service with Ruby, Rails, MongoDB, jQuery, Bootstrap for online consulting service&lt;/li&gt;
+&lt;li&gt;Designed and developed the Ajax based frontend with jQuery, Bootstrap&lt;/li&gt;
+&lt;li&gt;Implemented MVC backend with Rails 5.1 on MongoDB with MongoID&lt;/li&gt;
+&lt;li&gt;Implemented user authentication with Devise gem to support 3rd party (fb, tw) users&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;相对于之前的错误示范，我们可以对比一下多了哪些信息又减少了哪些信息。首先，project的title发生了变化，核心技术（Rails）被放在了title里，这样可以起到一个强调核心开发技术的作用。第二，Project的使用逻辑在很大程度上被削弱了，但是别人也大概知道这个Project的作用是什么。第三，Project的4行具体描述在逻辑上很清晰，分别是开发环境，前端，后端，和一个具体的功能（用户登录和管理）；每一行都是很清晰的一个点。第四，和之前错误示范相比，增加的细节都是技术相关的：jQuery，Bootstrap, Ajax, MVC, Devise gem， MongoID。&lt;/p&gt;
+&lt;p&gt;这样的写法，好处很明显：面试官不需要从使用的角度理解你的project，而是从技术上理解你的project。对比之前的错误示范，现在的Project描述显然表明了作者不仅了解相关的知识（设计模式MVC，和JS相关的Ajax），并且有一定的动手能力。至于这个网站具体是怎么样商业逻辑，咨询服务如何定价等等，显然不是面试官有太多兴趣去了解的。另外也有同学提出过类似这样的疑问：jQuery或者Boostrap几乎都成了Web Service标配了，或者所有的web framework几乎都是类似MVC的，还有必要提及吗？这个问题从两个层面回答。从技术层面上，几乎是标配不等于就是标配，比如很多网站不用jQuery因为过于巨大。从逻辑层面上，你没有提到的技术，面试官的基本假设是你不会这些技术，而不是默认这些技术是标配。&lt;/p&gt;
+&lt;p&gt;虽然可能你不熟Ruby和Rails， 但是看到这里你其实可以想到，同样的套路几乎适用于所有Web开发：如果你用Python，只要把开发语言从Ruby换成Python，后端的架构从Rails换成Flask或者Django，Devise和MongoID两个插件（Ruby环境下称之为gem）换成Python的插件（比如，MongoEngine），其他的细节（MVC，Ajax，jQuery，Bootstrap）都不变就好了。同理，如果是基于JavaScript的Web Service，无非也就是语言换成JavaScript/ES6，架构换成AngularJS或者VueJS等等。&lt;/p&gt;
+&lt;p&gt;那么，既然现在的例子只是初级写法，那这个写法的缺陷在哪里呢？这里最大的缺陷就在于，Tech Stack只是入门级别。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;对于前端开发，jQuery和Bootstrap属于傻瓜级别的插件，没有技术含量。&lt;/li&gt;
+&lt;li&gt;对于后端开发，简单的配置和安装就能运行起来，似乎和简单的Hello World tutorial相比也不需要更多的工作量。&lt;/li&gt;
+&lt;li&gt;作为唯一提到的feature，用户登录和管理是一个过于通用和高度流程化的模块。无论是哪种framework，像用户登录这种高度通用的模块一定都有现成的插件来实现；实现这样的功能通常只需要安装和配置就够了，几乎没有二次开发的必要。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;回到之前的观点，面试官希望看到的是你有足够的知识背景和动手能力。虽然现在的写法比错误示范有所提高，但是现在这个例子在有经验的coder眼里任然属于homework级别。换句话说，这个Project以现在这样的描述一天之内就可以做出来，即使加上users, groups和topics这些不同的模块，一周之内完成也绰绰有余。无论你的Project当时拖了多久，如果你事后以一个旁观者的角度来看简历觉得好像三五天就能完成，那就是homework级别。在面试官眼中，Project的评价就是一个字，弱。&lt;/p&gt;
+&lt;h2 id=&#34;project的中级写法&#34;&gt;Project的中级写法&lt;/h2&gt;
+&lt;p&gt;我们看到一个homework级别的Project有几个问题：tech stack傻瓜自动化，开发上没有技术深度，给人感觉几天就能做完。在此之上一个错误的改进方法是增加重复功能，这就陷入了之前提到的苦劳思维。正确的改进方法是，增加功能上的feature，提高技术深度。我们来看一下中级的Project的例子：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Rails based Online Resume Consulting Web Service (&lt;a href=&#34;https://www.cvmastersonline.com&#34;&gt;www.cvmastersonline.com&lt;/a&gt;)&lt;/strong&gt; 2017/01 - 2017/08&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented the web service with Ruby, Rails, MongoDB/MongoID, ReactJS, Webpacker for online consulting service&lt;/li&gt;
+&lt;li&gt;Developed the Ajax based frontend with Yarn, Webpack, ReactJS, and Redux for middlewares and reducers&lt;/li&gt;
+&lt;li&gt;Implemented MVC backend with Rails 5.1 and backend job queue with Sidekiq and Redis&lt;/li&gt;
+&lt;li&gt;Implemented realtime user chatting room with ActionCable/WebSockets&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里Project的基本细节仍然是开发环境，前端，后端，和一个feature。对于初级project，中级Project有几个方面的提高：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Framework升级。原来傻瓜级别的jQuery和Bootstrap已经不再提及了，换成了ReactJS，Webpack，Yarn，和Redux。相对于jQuery，ReactJS+Redux本身提供了基于前端的MVC架构，远比jQuery复杂的多。&lt;/li&gt;
+&lt;li&gt;Framework深化。这里web service的主要Framework任然是Ruby on Rails，但是细节上提及了Ruby on Rails下具体功能，包括ActionCable和对backend job的支持（Sidekiq gem）。类似，为了显示对Redux的了解，文中还特别提到了middlewares和reducers。&lt;/li&gt;
+&lt;li&gt;Feature的提高。这里仍然只提及了一个具体的feature，但是已经从user authentication替换成了realtime chatting room。作为一个相对少见的功能，这里实际上开发难度有所提高，并且涉及到背后的原理（WebSockets协议）。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;和初级写法类似，这里背后的逻辑同样适用于其他Web service的project。同样的ReactJS和Redux可以换成AngularJS，Vue，或者其他基于NodeJS的framework。这里顺便提一下，如果你不提及ES6，NodeJS相关的这些framework，很难说服别人你真的会用JavaScript。Server端的MVC换成Python端的可以用Django或者Flask，backend job queue可以用RebbitMQ和Celery。ActionCable是Rails自带的，Python下可以用SocketIO替代。这里想说的是，common feature总有common solution，无论你是用ruby用python用java还是用别的语言，相似系统（比如所有的web service）常用的feature总有常用的open source library。如果你的简历里不写这些library，面试官就倾向于认为你对相关的framework只是浅尝辄止，毕竟现在顺着一个教程随便试一下某个framework也就花几个小时。Web service类型的project是如此，其他做大数据处理或者移动开发的，原理也是一样。&lt;/p&gt;
+&lt;p&gt;Project写到现在的程度，才算是刚刚符合“Project”的称呼。对于刚刚本科或者硕士毕业的同学，简历能写到这种程度的话在我看来已经很不错了。当然我也没办法下结论说Project写到这个程度就一定能进入面试或者拿到offer，毕竟找工作本身就是一个充满各种不确定性的过程。在我看来，拿到面试是检验简历的唯一标准。如果你发现简历拿到面试的比率比较高，那才说明你的简历过关了。若果你发现投出去大量简历都石沉大海，那还是想想办法升级和深化自己的Project吧。&lt;/p&gt;
+&lt;h2 id=&#34;project的高级写法&#34;&gt;Project的高级写法&lt;/h2&gt;
+&lt;p&gt;Project写到中级水平，在本科和硕士毕业生中就已经很有竞争优势了，毕竟绝大部分同学的简历还是停留在homework的级别。那如果想更进一步提高Project的水平，以争取更多FLAG级别公司的青睐，应该怎样改进Project呢？或者，如果已经有了几年的fulltime工作经验，应该怎样提高自己的Project和简历呢？我个人的回答是，要把Project更向Product方向靠近。我们还是用同一个project的例子，看看高级Project可能的写法。注意这里只是“可能”，“高级”也只是相对，因为复杂系统的技术挑战是没有止境的，这里的例子也仅限于单人可实现的范围。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Rails based Online Resume Consulting Web Service (&lt;a href=&#34;https://www.cvmastersonline.com&#34;&gt;www.cvmastersonline.com&lt;/a&gt;)&lt;/strong&gt; 2017/01 - 2017/08&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Implemented the web service with Ruby, Rails, MongoDB/MongoID, ReactJS, Webpacker for online consulting service&lt;/li&gt;
+&lt;li&gt;Developed the Ajax based frontend with Yarn, Webpack, ReactJS, and Redux for middlewares and reducers and used ActionCable/WebSockets for real-time chatting and notifications&lt;/li&gt;
+&lt;li&gt;Implemented MVC backend with Rails 5.1 on MongoDB and asynchronized job queue with Sidekiq and Redis&lt;/li&gt;
+&lt;li&gt;Automated system deployment with Docker, Nginx on AWS EC2/ECS and AWC ELB as load balancer&lt;/li&gt;
+&lt;li&gt;Used Apache Kafka for log/event analysis and created MongoDB shared cluster for storage&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这里新加的两个item主要针对system deployment和log/event analysis：利用Docker做deployment的好处就是容易做scalability；Kafka和MongoDB sharding是为了处理large scale data。这里虽然有over engineering的嫌疑，但是重点是这两条item不是面向customer的，而是面向system的。&lt;/p&gt;
+&lt;p&gt;如果说低级的Project更像homework，那高级的Project就应该更像Product。当然如果是PhD准备走学术路线，更好的Project就意味着更好的Publications，不在本章的讨论范围之内。所谓更像Product，就意味着除了feature本身的实现，你还要考虑很多其他方面的问题，比如performance，deployment，analysis，scalability，throughput等等。原因很简单，大型复杂系统暴露给customer的API往往是最容易的冰山一角。例如Twitter这样的系统，技术难度不在于能发推能follow别人，而在于怎样支持全球几亿用户。实际上，要实现你能看到的Twitter的基本功能其实花几天时间当个Homework就能做出来了。&lt;/p&gt;
+&lt;p&gt;看到这里你就会明白如果还没有毕业，那实习的真正重要性在哪里。刚刚毕业的学生普遍缺少项目经验，如果你通过实习能够获得大型复杂Product的开发经验，那当然容易脱颖而出；但如果你的实习仅限于打杂，当然简历上加分也不会太明显。同样这也解释了，如果你已经有了几年的工作经验，那你的简历就不能再以刚刚毕业的学生作为标准，而是需要有更多对于产品Product核心技术的思考。&lt;/p&gt;
+&lt;p&gt;最后说一个写简历时候的个人技巧。我在自己的简历中，会有一些Project的描述不完全真实。不是说我会在自己的简历中造假，而是说我会把我会的东西糅合进某一个Project中，哪怕这个Project在实际中并不是这样实现的。这样做的原因是有些Project之间总有技术交集，但也总会有不同的侧重点；分开写会重复，不如合并成一个更大的Project。比如文中的例子，其实实际在运行的系统我并没有用到Docker和Kafka，因为这么一个小破网站每天也没几个人访问，没有这个必要。我放在这里只是因为这些我都做过。很多人会担心这样夸大简历会不会在面试中被抓包，但是还是那句话，首先你要有面试。&lt;/p&gt;
+&lt;p&gt;实际上cvmastersonline这个网站从开始就不是基于MongoDB的，而是基于PostgreSQL的。最近正在努力开发迁移到MongoDB上，所以如果看到Bug还请不要嫌弃：P&lt;/p&gt;
+&lt;h2 id=&#34;准备project中的方法论&#34;&gt;准备Project中的方法论&lt;/h2&gt;
+&lt;p&gt;看过了简历中Project的写法，可能很多人会感叹我知道Project怎么写了，但是没有Project怎么办。这里聊一聊怎样从零开始完成以一个新的Project以及如何提高自己现有的Project。&lt;/p&gt;
+&lt;h3 id=&#34;起因简历中的project为什么重要&#34;&gt;起因：简历中的Project为什么重要？&lt;/h3&gt;
+&lt;p&gt;简历中最重要的部分是Projects：无论你是否转专业，无论你是否名校毕业，Projects几乎决定了你是否可以进入面试。虽然刷题是准备面试过程中不可避免的一个部分，但是刷题没有办法写进简历。结果就是，即使你刷题无数，Leetcode倒背如流，没有好的Projects任然无法进入面试。&lt;/p&gt;
+&lt;p&gt;如果简历submit之后几乎没有面试或者进入面试比例很低，那唯一的解释就是你的简历不行Project太弱，所以竞争不过别的candidates。这个时候再反复刷题也是没有用的：你进入不了面试就没有做题的机会。这对于旁观者来说是一个再清楚不过的结论，但是当局者往往会有“也许下周就电面了呢还是再刷一遍题吧”的幻觉。世界就是这么不公平，旱的旱死涝的涝死，如果你觉得自己不像是会“涝死”的那个，那你肯定是“旱死”的那个。&lt;/p&gt;
+&lt;p&gt;在论坛上能看到很多人，吐槽自己做题全对仍然没有进入下一轮面试。这里可能的原因其实有很多，比如公司政策变化，或者面试官喜好等等。但是这些原因中也有一种可能：面试官觉得你project太low，只是擅长刷题而已。其实刷题真的有用吗？真的能代表你的编程能力吗？至少在我这里是有问号的。个人感觉刷题这个步骤有点像高考：不能检验能力，但是又是一个没办法替代的步骤。面试官对此也是心知肚明，所以在面试官的心目中，刷题的结果也未必有你想象的那么重要。实际上，面试中因为聊简历聊的太High结果没时间做题或者做题没做完但仍然进入下一轮面试的例子有很多很多。&lt;/p&gt;
+&lt;h3 id=&#34;问题现有的project比较弱怎么办&#34;&gt;问题：现有的Project比较弱怎么办？&lt;/h3&gt;
+&lt;p&gt;很多人都问过，哎呀学校的project很水怎么办，哎呀新技术不会怎么办。我还能怎么回答，要么去学，要么去死呗。选择去学的话，下一个问题就是怎么学。大部分同学的思维方式还停留在找tutorial的阶段，希望找到一个无比详细的tutorial能够手把手带你做出一个完整的Project然后直接放在简历里就好了。但是如果事情只是这么简单的话，你现在就不用心怀焦虑来看这篇帖子了。&lt;/p&gt;
+&lt;p&gt;不是说tutorial不好，而是说，一个tutorial不够支撑一个project。优质的tutorial有很多，但是通常只会以教学为目的，针对一个具体的技术，力求完备且在细节上解释清楚。但是对于简历中的project描述来说，首先只有一个技术是不够的，其次特别琐碎的细节写在简历上是没有意义的。举个例子，Django的tutorial会详细介绍某个function如何调用和参数是啥。但是你简历里的Project显然不能只用到Django，也不能把参数这种琐碎细节写上去。&lt;/p&gt;
+&lt;p&gt;在准备project的过程中，一个更合理的办法是，你需要把多个技术攒成一个大型复杂的系统。我们先看一个例子，假设我们决定做一个股票分析系统作为project，那这个project应该怎么攒呢？大致可以有这么几个模块：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;可以有一个类似Scrapy这种crawler来解决数据输入&lt;/li&gt;
+&lt;li&gt;如果想做big data，可以用hadoop之类的技术做大数据处理&lt;/li&gt;
+&lt;li&gt;如果想做machine learning，可以在股票信价格上用TensorFlow或者Sklearn做相关的数据分析&lt;/li&gt;
+&lt;li&gt;如果想做NLP，可以用python NLTK分析一下股票相关的news或者tweets&lt;/li&gt;
+&lt;li&gt;如果想做web，可以把股票相关的信息用一个类似Flask或者SpringMVC或者VueJS这种Web架构展示出来&lt;/li&gt;
+&lt;li&gt;如果想做visualization，可以用javascript（d3.js之类的）画一些复杂的graph作为展示&lt;/li&gt;
+&lt;li&gt;如果想展现一下对architecture的了解，可以做一些microservice上的设计，比如load balancer或者web cache等等。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这里列出了7个item，实际上你只要从中选择2个以上就已经可以成为一个相对复杂的Project了。有些Item可以合并，比如big data和machine learning就可以用Spark和Spark MLlib来完成；同样Visualization也可以作为Web frontent的一部分。合并还是分开，取决于你是否有单独的细节需要强调。&lt;/p&gt;
+&lt;p&gt;既然说到细节，那其实“现有的project比较弱”往往也是因为缺少细节。这里我再聊一下Project要有哪些细节。我觉得一个合格的project，要包括三个方面的细节：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;开发环境，尤其是开发语言&lt;/li&gt;
+&lt;li&gt;相关Framework&lt;/li&gt;
+&lt;li&gt;Framework的plugin或者module&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;大部分Project容易有Framework，比如做ML的用TensorFlow，做mobile app的用Android SDK之类的。最容易缺少的反而是第一条，开发环境和开发语言。一个原因是，很多人以为写个Framework就自带了语言，但是实际上Hadoop，Kafka， ElasticSearch这种framework可以用多种语言做二次开发，你不说别人只能猜。还有很多人只写我做了什么，比如我做了web cache，我做了database，连个名字都不给，谁又能猜到你是怎么做的。&lt;/p&gt;
+&lt;p&gt;重点解释一下为什么要写Framework的plugin或者module，这个是对Project的加分部分，但是大部分人做的都不好。先说一下为什么Framework本身不够：大部分的Framework即使再复杂，入门都并不困难，甚至其本身往往就以容易入门作为设计标准。以ReactJS为例，follow一个官方的tutorial只要1个小时都不到。结果就是如果project只写一个react，那面试官更容易认为你只是follow一下教程简单调用了一下，并没有多少深入的了解。这显然不是作为candidate的你希望看到的结果。为了避免这种情况出现，你要在简历中同时提及Framework的plugin，比如基于react的redux，redux-form，redux-thunk等等。有些Framework可能也不像react或者Django这种有大量的开源插件，通常这样的framework本身已经有比较完备的功能，我们可以提及其内部的模块或者相关工具，比如Spark内部的Spark MLlib。有这些细节支持，才可以证明你不只是简单调用了一个Framework，而是对该framework有深入的了解。&lt;/p&gt;
+&lt;p&gt;基于上面的描述，我们可以把一个project总结成一个表格，横向代表project的广度，纵向代表project的深度；每个cell是一些可以选择的各种技术。下面的表格中给出了一些例子。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://i.imgur.com/FCLAv4d.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;前面说了这么多，其实总结一下也很简单：用Framework去证明你对编程语言的掌握程度，用plugin/module去证明你对Framework的掌握程度。看到这里，你是不是应该把自己简历中没写清楚的language或者framework或者plugin先补上？&lt;/p&gt;
+&lt;h3 id=&#34;解决办法&#34;&gt;解决办法：&lt;/h3&gt;
+&lt;h4 id=&#34;策略一现有project增加feature&#34;&gt;策略一：现有Project增加feature&lt;/h4&gt;
+&lt;p&gt;其实大部分人的Project都来自作业，大学里的作业什么样大家也心知肚明。很多人当初对待课程Project的态度就是挣个成绩，所以其实也没有太过认真对待。其实大部分的学校Project会利用一些Framework来完成一些简单的入门，比如很多big data相关的project都会利用spark或者hadoop做一些简单的分析。简单的入门对于找工作当然不够，但是你可以基于这个主框架增加更多的feature，完善更多的实现细节。比如如果学校的project有提供现成的数据，那你就可以想一想自己应该如何收集数据；学校要求的分析只是简单的统计结果，你就可以想象怎么做visualization。对比上面的表格，你肯定总能找到可以增加的column。总之，你可以在已有project的内容上，添加更多的feature，在证明自己的编程能力的同时也能有效的把自己和其他同班同学区分出来。&lt;/p&gt;
+&lt;h4 id=&#34;策略二增加新project&#34;&gt;策略二：增加新Project&lt;/h4&gt;
+&lt;p&gt;如果对自己的project实在是不满意，那除了准备新的project也并没有别的办法。上面的表格已经做为例子给出你可以做的各种project，问题就变成了你怎样从中选择，比如你主推哪个语言或者哪个Framework。一个选择的思路是，根据自己心仪公司的职位描述，选择适合该职位的技术。另一个选择的思路是，找出若干公司和职位的技术交集进行准备。其实具体怎么选也未必特别重要，因为无论你准备怎样的project，入职之后要都学新的东西做新的项目。对面试官来说，重要的是，你要有拿得出手的project来证明自己有足够的开发经验和能力；这样面试官才能相信招你进组之后你能胜任之后的工作。&lt;/p&gt;
+&lt;h4 id=&#34;策略三resume-as-todo-list&#34;&gt;策略三：Resume as ToDo List&lt;/h4&gt;
+&lt;p&gt;其实大部分人的问题并不是要不要准备新的project或者feature，比如你投出去的简历全部石沉大海，那答案还不够明显么。大部分人的问题是，应该怎样在非常有限的时间里准备新的Project。其实我和很多人都说过，我对一个朋友很多年前的一句话印象深刻：“我达到我简历上的水平还需要3个月的准备时间”。这句话的背后的意思就是，你可以先把自己的简历当成一个todo list来写，简历投出去之后再恶补简历上的内容。前提当然是你要保证简历上写的东西是可以实现的。如果你需要学习新的技术，我个人认为一个比较快的办法是先看youtube，理解概念了就可以先写简历了，简历投出去之后再去动手implement。很多人看到这里会问，那如果面试被问住怎么办。面试被问住的前提是首先你要有面试。好比下周就期末考试了，你问我现在临时抱佛脚会不会考试不及格。我能说啥。你先抱了再说嘛，考不及格然后重修，还是直接重修，你自己挑呗。&lt;/p&gt;
+&lt;h4 id=&#34;策略四至少一个核心project&#34;&gt;策略四：至少一个核心project&lt;/h4&gt;
+&lt;p&gt;你未必会有时间增强所有的project，但是你要从现有的project中挑选至少一个作为主推的核心project。这个核心project要大型，要复杂，要最能代表你的开发能力。你在面试开始的自我介绍里要主动介绍这个project，你在被问到behavior question的时候要以用这个project举例回答。你要知道这个project在你所有的project之中最有价值。牛人之所以牛就是因为有这种核心project还不止一个。有FLAG或者BAT实习经验的人，核心project理所当然的是你的实习经历。如果没有实习，那你就要自己找到，或者准备，这样的核心project作为简历的卖点。个人的感觉是，找工作的过程其实是一个反木桶原理：增强最长板远比弥补最短板有效有用的多。&lt;/p&gt;
+&lt;h3 id=&#34;写在最后&#34;&gt;写在最后&lt;/h3&gt;
+&lt;p&gt;周星驰版鹿鼎记里，韦小宝问陈近南有没有武功秘籍可以防身，陈近南给了韦小宝一个很薄的小册子。韦小宝正开心说内容这么少，陈近南解释说这本只是武功秘籍的目录，那边一墙的书才是武功秘籍本尊。本文也类似，最多只能起到一个todo list的作用，一家之言，效果的好坏也取决于你对于这个todo list的完成程度。其实找工作也是一个学习的过程，你需要有悟性，有调整，有计划，有实现。可能会有更高效的办法，但肯定不会有捷径。这里悟性和调整可能是最重要的，因为很多擅长考试的人刚开始找工作会发现很多事情和想象中完全不一样：往往到了这个时候时间都会紧迫，问题就变成了，你要怎么去调整，你的调整会不会有效果。这里写的都是个人的经验总结，能对你起到多大的作用，就看你怎样做出选择啦。&lt;/p&gt;
+&lt;h2 id=&#34;简历的写法2019&#34;&gt;简历的写法2019&lt;/h2&gt;
+&lt;p&gt;修改了几百份简历之后，有了一些新的想法，所以今天（2019.2.8）把之前写的文章更新一下~还是按照简历的基本格式逐个提一下好了。&lt;/p&gt;
+&lt;h3 id=&#34;objective-1&#34;&gt;Objective&lt;/h3&gt;
+&lt;p&gt;通常我个人是只写申请的position title的，会根据不同公司的不同职位进行修改。不过大部分网申系统都会记录你申请的职位，所以如果简历篇幅不够可以去掉这个section。至于一些额外信息，比如什么时候毕业愿不愿意reloation什么的最好不要写，等拿到offer再去和HR谈。万一因为公司招人比较急你又不能及时毕业怎么办？这是需要和HR面谈的东西，不要在白纸黑字的地方给自己和别人加限制。&lt;/p&gt;
+&lt;p&gt;篇幅：1 line&lt;/p&gt;
+&lt;h3 id=&#34;education-1&#34;&gt;Education&lt;/h3&gt;
+&lt;p&gt;Education要注意写清楚学位，专业，学校。觉得自己gpa足够好或者rank够高就写上，反之就别写。如果你拿到面试比较多，你就会知道大概没什么人会对你的gpa或者rank提问。如果你拿到面试比较少，那通常也不是因为gpa。Education可以在格式上写紧凑一点给Project多留点空间。&lt;/p&gt;
+&lt;p&gt;篇幅：2 lines，本科和硕士各一行&lt;/p&gt;
+&lt;h3 id=&#34;technical-skills-1&#34;&gt;Technical Skills&lt;/h3&gt;
+&lt;p&gt;这个Section的作用是用来总结关键词的。通常面试官第一次看你的简历，不会超过一分钟，面试官对你简历的第一印象就主要来自对关键词的快速浏览。对大公司来说，面试既是工程师工作的一部分，但又不是最关键的KPI，所以你也不能指望面试官本身能对你的简历多么认真负责。&lt;/p&gt;
+&lt;p&gt;篇幅：4~5 lines，每行写满&lt;/p&gt;
+&lt;h4 id=&#34;什么是关键词keywords&#34;&gt;什么是关键词Keywords&lt;/h4&gt;
+&lt;p&gt;关键词可以是language，framework，plugin，database，algorithm， tool等等。既然简历的目的是证明自己的编程能力，那越是需要二次开发的framework也就越重要，比如Java的Spring，Python的TensorFlow这种。有些tool或者database只需要配置一下就能简单使用，这样的keywords就相对弱一些。很多没有太多工作经验的同学对关键词的理解仍然停留在语言层面上，这是远远不够的。想象一下你的简历里写的是会Java，别人写的是会Hibernate和hadoop；你的简历里写会javascript，别人写的是会ReactJS和AnguluarJS；你的简历里写会SQL，别人写的是会PostgreSQL和MongoDB。这两相对比一下你的简历就机会渺茫了。&lt;/p&gt;
+&lt;h4 id=&#34;skill中关键词的格式和数量&#34;&gt;Skill中关键词的格式和数量&lt;/h4&gt;
+&lt;p&gt;个人的建议是，Skills这个section就分成几个bullets，比如languages，frameworks，tools等；frameworks可以2行写满，其他bullet要一行写满。其中最重要的部分是frameworks，那针对Java，Python，和JavaScript，每种语言都应该提供3种以上的framework，并在project中有所体现。没有必要写任何形容词性的程度描述，比如“good with XXX”, &amp;ldquo;familiar with XXX&amp;rdquo;, &amp;ldquo;efficient with XXX&amp;quot;等等，因为面试官不会也无法根据你的形容词做量化判断。&lt;/p&gt;
+&lt;h4 id=&#34;framework以及其他keywords不够怎么办&#34;&gt;framework以及其他keywords不够怎么办&lt;/h4&gt;
+&lt;p&gt;简单来说就只有一个办法，就是去学。要么就主动去学新的技能，提高自己拿到面试的几率；要么就被动等着好运气降临到自己身上。前者成本高但是收获总是有的；后者代价更大，当你意识到不太妙的时候已经很晚了。&lt;/p&gt;
+&lt;h3 id=&#34;professionalwork-experience&#34;&gt;Professional/Work Experience&lt;/h3&gt;
+&lt;p&gt;这个section主要写实习或者之前的工作经验。改了很多简历之后，发现其实很多同学并不能很好的去表达自己参与工作的价值。如果你参与核心产品研发，那你就应该突出产品的规模，核心技术，突出自己的实际产品开发经验。有见过一个女生的简历，她参与了百度某个deep learning产品的开发，轻松去了facebook。如果实习偏打杂一些，那就要在简历好好包装自己的Project，突出动手能力。这里最常见的错误是强调了自己参与的project什么背景怎么操作，却完全不提技术实现。面试官并不关心你之前的系统怎么操作：面试官关心的是你之前的开发经验和动手能力能不能快速的迁移到新的position来。还有人在Professional Experience写和development无关的经历，想要强调自己的leadership或者communication skill。但是说实话，如果你找的工作如果是入门级别的developer，没人在乎你的leadership。同样面试本身就会体现communication skill， 如果你连面试都进不去，别人也不在乎你简历里写的communication skill。另外，TA的经验，个人觉得对找工作没什么实质性的影响。看到有同学因为实在没有工作经验就写TA经验，个人感觉意义不大，有这个空间还不如多写一个Project更实际一点。&lt;/p&gt;
+&lt;h3 id=&#34;projects-1&#34;&gt;Projects&lt;/h3&gt;
+&lt;p&gt;Projects在简历中占据最大的篇幅，是仅次于Work Experience的最重要的部分；如果你没有实习经验，那就是全简历中最重要的部分了。这个部分不只决定了你能否进入面试，也在相当程度上决定了面试中面试官会问什么样的问题。只要你清楚的知道你的简历里的卖点是哪些，那你就能把握面试问题的范围，回答上也就更得心应手。&lt;/p&gt;
+&lt;p&gt;描述Projects时候最常见的错误，有这么几个。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;详细解释了project流程和操作，而忽略了技术实现。看到很多简历在写project的时候，都是在详细解释这个project是在哪个教授手下完成的，这个功能是什么，怎么操作，用户的能力是什么。比如我做了个电商网站，这个网站用户能登录，登录之后用户能买东西，买了东西后台还能看到。这并不是面试官希望看到的内容，面试官不需要你给他解释什么叫做电商网站和电商网站应该有哪些功能。面试官希望看到的是，你用了什么framework开发了那些feature，用哪些插件完成了哪些功能。比如用Django搭建了MVC，用MongoDB做数据库，就用FB/TW的api实现了用户登录。通过折现实现细节别人才能判断你的开发经验。&lt;/li&gt;
+&lt;li&gt;技术实现只写基础编程语言和IDE。开发语言仅仅是最基础的东西，不但只是大一大二的课程，而且Java也好Python也好会的人都了去了，面试官凭什么只给你offer不给别人offer。这里更能代表你开发能力的一定是那些framework。&lt;/li&gt;
+&lt;li&gt;重复的技术栈和Project类型。技术栈一模一样的Web Service在简历上写10个和写1个没有区别没有区别，重复的东西越多说明你会的东西越少；同样的东西重复10遍也不能说明你是专家，因为没解决过任何新问题。这里一个补救办法是，在不同的Project中使用不同的database和framework。比如一个project用MySQL，另一个就最好用MongoDB。Project类型也类似，有少数几个Web Service project也还说的过去；如果所有Project都是Web Service，那面试官会觉得你除了Web其他什么也不会。补救办法是，你要在不同的project里想清楚侧重点到底是什么，比如big data还是machine learning，然后根据不同的侧重点准备不同的project。&lt;/li&gt;
+&lt;li&gt;强调和解释简单技术。简历的目的是为了证明自己的编程能力，如果你强调简单技术，那就说经复杂的你不会。这里要明确一点，你写简历并不是为了通俗易懂，越通俗易懂的简历越让人感觉挫。你写简历的目的为了给专业的人展示你的专业能力，你要相信你写的技术90%以上面试官都比你深入了解的多。所以不要去强调你会HTML和CSS，不要去解释MySQL是关系型数据库。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;上面提到了Project里的常见错误，那避开了这些常见错误，我的project就太过简单了怎么办？这里要想清楚两件事：首先简历怎么对自己有利怎么写。其次，面试官在乎的是你会什么，不是事实是什么。所以你的project是需要好好设计的，你要通过简历里的Project展示给面试官你的知识背景和编程能力。当初的Project做成什么样并不重要，重要的是你会什么技术，这些技术怎么展示在简历中。&lt;/p&gt;
+&lt;h3 id=&#34;coursework-1&#34;&gt;Coursework&lt;/h3&gt;
+&lt;p&gt;通常我会把coursework放在简历最后，并且根据不同的position要求调整课程。比如如果是data scientist的职位就要强调machine learning和data mining相关的课程，如果是system developer就强调下数据库或者操作系统。一般面试官没有什么闲心问你上过什么课程，一遍面试官也不在乎你的GPA。这就是为什么GPA再高都不如刷10遍leetcode有用。&lt;/p&gt;
+&lt;h3 id=&#34;publications-1&#34;&gt;Publications&lt;/h3&gt;
+&lt;p&gt;对phd来说publications相当重要，但是本文主要针对的是找工作的master。publications也许可以锦上添花，但是前提是要把工程能力这个“锦”的部分做好，否在光有“花”没用。在美国找工作的话，的publication就不用写了；如果你不是作者之一，也就不用写了，也不用引用别的论文。英文的publication如果有就按照通常论文的reference格式写清楚。&lt;/p&gt;
+&lt;h3 id=&#34;其他&#34;&gt;其他&lt;/h3&gt;
+&lt;h4 id=&#34;关于篇幅&#34;&gt;关于篇幅&lt;/h4&gt;
+&lt;p&gt;如果简历一页写不满或者空白很多，至少我作为面试官会就得感观很差，我的潜意识里会觉得一看就缺少动手能力。如果Project比较多，那就尽可能写的简练一些，选择最有技术含量的部分，放弃掉一些简单的实现细节。如果已经足够简练，千万不要因为篇幅砍project，超过一页也没什么大不了的。总能看到有人说简历不能超过一页，否则HR根本不看什么的。即使真的有这种现象，这种垃圾公司也不建议你去。&lt;/p&gt;
+&lt;h4 id=&#34;关于framework和刷题&#34;&gt;关于framework和刷题&lt;/h4&gt;
+&lt;p&gt;大部分学校课程只教基础原理，不教framework。如果你认为靠学校教的基础原理找工作就够了，那可能这就是你拿不到面试的原因。也看到有人刷题无数但拿不到面试。原因也很简单，刷题没有办法写进简历；简历过不去刷题再多也没有意义。&lt;/p&gt;
+&lt;h4 id=&#34;关于summary&#34;&gt;关于Summary&lt;/h4&gt;
+&lt;p&gt;不少简历中可以看到一个Summary section，大意就是“I am a team player with strong coding experience and good communication skills”。楼主自己的简历不写summary，同时也不推荐在简历里这样写。理由其实在上中已经说明过了。首先你的experience是不是strong不是你自己说了算的，面试官会根据你的Project做出判断并和其他candidate做出比较。不然每个人都会说自己strong experience。其次，像leadership，communication，team player这种所谓soft skills，面试官判断的依据也不是来自于简历而是来自于面试。如果简历里的hard skills过不了关没有面试，所有soft skills就都是空谈。进入面试之后，只要是情商智商正常的candidate，即使拿不到offer通常也不会是因为soft skill。&lt;/p&gt;
+&lt;h4 id=&#34;一些简历格式问题&#34;&gt;一些简历格式问题&lt;/h4&gt;
+&lt;p&gt;最近看到了一些模板诡异的简历，阅读和修改起来都很头疼，尤其是那种三七开排版的。比如左边30%写Education，skills，和一些别的；右边70写project和experience。不仔细看的话排版挺美观的，但是实际上个人感觉这种排版需要上下来回阅读，很容易distraction非常难以抓住细节，尤其是当你写的紧凑的时候。还有人会在简历里加黑加粗一些关键词，初衷可以理解，但是个人也不推荐。原因是潜意识里我会只关注加黑加粗的部分，自动忽略其他。如果我看到你加黑加粗的是Bootstrap或者jQuery这种，印象就更差了。另外一个感觉是之所以要加黑加粗，往往是以为其他部分废话太多。&lt;/p&gt;
+&lt;h4 id=&#34;面试被问住怎么办&#34;&gt;面试被问住怎么办&lt;/h4&gt;
+&lt;p&gt;总有人会问简历写了那么多技术，面试万一被问住怎么办。这里需要明确的事情是，简历写多写少和面试会不会被问住一毛钱关系也没有。无论你怎么写的简历，面试官都有1万多种方法问住你。通常面试官不会也懒得把场面搞得特别尴尬，面试官看出你不会的时候往往就懒得追问了。而且你面试经验不多的话，搞砸面试是很正常的事情。你需要做的是总结经验教训，防止下次面试出现同样的问题。&lt;/p&gt;</description>
+      
+    </item>
     
     <item>
       <title>如何学习</title>
@@ -19,7 +221,8 @@
       
       <guid>https://xdls.github.io/post/%E5%A6%82%E4%BD%95%E5%AD%A6%E4%B9%A0/</guid>
       
-        <description>&lt;p&gt;用第一手资料学习。&lt;/p&gt;</description>
+        <description>&lt;p&gt;用第一手资料学习。&lt;/p&gt;
+&lt;p&gt;将非常有用的东西保存为PDF，不要保存为富文本，因为富文本有可能会丢失一些信息。&lt;/p&gt;</description>
       
     </item>
     
